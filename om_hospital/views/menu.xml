@@ -3,6 +3,7 @@
     
     <menuitem id ="menu_hospital_root"  
               name="Hospital"
+              web_icon="om_hospital,static,/description/hospital.png"
               sequence="0"/>
 
 
@@ -10,11 +11,5 @@
               name="Patient_Details"
               parent="menu_hospital_root"
               sequence="0"/>
-
-
-    <menuitem id ="menu_patient"
-              name="Patient"
-              parent="menu_patient_master"
-              sequence="0"/>                    
-              
+                
 </odoo>
